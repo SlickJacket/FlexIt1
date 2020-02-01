@@ -1,0 +1,14 @@
+.container {
+  display: -webkit-box;
+  display: flex;
+  
+}
+
+.container .navbar {
+    -webkit-box-flex: 1;
+            flex: 1;
+}
+
+.box {
+  background-color: yellow;
+}

@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.box {
+  background-color: pink;
+  flex-basis: 100%;
+}
+
+.navBar {
+  flex-basis: 5%;
+  background-color: rgba(225, 225, 225, 0.8);
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: grey;
+}
+
+.innerBox {
+    flex-basis: 40%;
+}
+
+.contentContainer > * {
+    background-color: yellow;
+}
